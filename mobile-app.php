@@ -67,38 +67,7 @@ include __DIR__ . "/partials/header.php";
         <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 10h14l-1.5 9a2 2 0 0 1-2 1.7H8.5a2 2 0 0 1-2-1.7z"/><path d="M9 10a3 3 0 0 1 6 0"/><path d="M3 10h18"/></svg></span>
         <span>Mandi</span>
       </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span>
-        <span>Accounting</span>
-      </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10.5 20.5L3.5 13.5a5 5 0 0 1 7-7l7 7a5 5 0 0 1-7 7z"/><path d="M8.5 8.5l7 7"/></svg></span>
-        <span>Pharmacy</span>
-      </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 10L12 5 2 10l10 5 10-5z"/><path d="M6 12v5c0 1.5 3 3 6 3s6-1.5 6-3v-5"/></svg></span>
-        <span>School</span>
-      </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 21V8l9-5 9 5v13"/><path d="M9 21v-6h6v6"/></svg></span>
-        <span>Hotel</span>
-      </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 2v7c0 1.7 1.3 3 3 3s3-1.3 3-3V2M6 12v10M15 2c-2 0-3 2-3 5s1 5 3 5 M15 2v20"/></svg></span>
-        <span>Restaurant</span>
-      </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="1" y="7" width="15" height="10" rx="1"/><path d="M16 10h4l3 3v4h-7"/><circle cx="6" cy="19" r="2"/><circle cx="18" cy="19" r="2"/></svg></span>
-        <span>Transport</span>
-      </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 2v6.5L4 18a2 2 0 0 0 1.8 3h12.4a2 2 0 0 0 1.8-3l-5-9.5V2"/><path d="M8.5 2h7"/><path d="M6.5 15h11"/></svg></span>
-        <span>Medical Lab</span>
-      </a>
-      <a href="index.php#industries" class="mah-tile">
-        <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M5 10h14l-1.5 9a2 2 0 0 1-2 1.7H8.5a2 2 0 0 1-2-1.7z"/><path d="M9 10a3 3 0 0 1 6 0"/><path d="M3 10h18"/></svg></span>
-        <span>Mandi</span>
-      </a>
+      
       <a href="index.php#industries" class="mah-tile">
         <span class="mah-tile-icon"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M3 3v18h18"/><path d="M7 15l4-4 3 3 5-6"/></svg></span>
         <span>Accounting</span>
