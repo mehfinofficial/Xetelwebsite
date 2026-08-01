@@ -1,0 +1,91 @@
+/* ============================================
+   XETEL — DESIGN TOKENS
+   ============================================ */
+
+:root {
+  /* ---- Brand core ---- */
+  --teal-900: #003940;
+  --teal-800: #004a52;
+  --teal-700: #006d77;
+  --teal-600: #0a8a94;
+  --teal-500: #2fa3ac;
+  --teal-400: #4fb6bf;
+  --teal-300: #8fd4da;
+  --teal-100: #d9f2f3;
+
+  --amber-600: #c98f2e;
+  --amber-500: #e9b44c;
+  --amber-400: #f0c876;
+
+  --ink-900: #0b2027;
+  --ink-700: #21414a;
+  --ink-500: #4a6870;
+
+  /* ---- Light theme (default) ---- */
+  --bg: #f4fbfb;
+  --bg-alt: #e9f4f4;
+  --surface: #ffffff;
+  --surface-glass: rgba(255, 255, 255, 0.55);
+   --surface-glass2: rgba(255, 255, 255, 0.85);
+  --surface-glass-strong: rgba(255, 255, 255, 0.75);
+  --border-glass: rgba(11, 32, 39, 0.08);
+  --text-primary: var(--ink-900);
+  --text-secondary: var(--ink-700);
+  --text-muted: var(--ink-500);
+  --accent: var(--teal-700);
+  --accent-strong: var(--teal-800);
+  --accent-soft: var(--teal-100);
+  --cta: var(--amber-500);
+  --cta-hover: var(--amber-600);
+  --shadow-color: 200, 40%, 20%;
+  --chrome-dot-1: #ff5f57;
+  --chrome-dot-2: #febc2e;
+  --chrome-dot-3: #28c840;
+
+  /* ---- Layout ---- */
+  --radius-sm: 10px;
+  --radius-md: 16px;
+  --radius-lg: 24px;
+  --radius-xl: 32px;
+  --container: 1240px;
+  --nav-height: 64px;
+
+  /* ---- Type ---- */
+  --font-display: "Sora", "Segoe UI", sans-serif;
+  --font-body: "Inter", "Segoe UI", sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+
+  /* ---- Motion ---- */
+  --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --dur-fast: 180ms;
+  --dur-med: 420ms;
+  --dur-medplus: 500ms;
+  --dur-slow: 900ms;
+}
+
+[data-theme="dark"] {
+  --bg: #061a1e;
+  --bg-alt: #0a2429;
+  --surface: #0c2830;
+  --surface-glass: rgba(12, 40, 48, 0.55);
+  --surface-glass-strong: rgba(16, 48, 56, 0.72);
+  --border-glass: rgba(143, 212, 218, 0.14);
+  --text-primary: #eaf6f6;
+  --text-secondary: #b9d6d8;
+  --text-muted: #7fa2a6;
+  --accent: var(--teal-400);
+  --accent-strong: var(--teal-300);
+  --accent-soft: rgba(79, 182, 191, 0.14);
+  --cta: var(--amber-500);
+  --cta-hover: var(--amber-400);
+  --shadow-color: 190, 60%, 3%;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}

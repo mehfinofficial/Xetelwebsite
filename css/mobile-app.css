@@ -1,0 +1,133 @@
+/* ============ MOBILE APP SHELL (mobile-app.php) ============ */
+.mobile-app-shell {
+  max-width: 480px;
+  margin: 0 auto;
+  padding-top: calc(var(--nav-height) + 22px); /* clears the fixed nav */
+  padding-bottom: 100px; /* clears the fixed bottom tabbar */
+}
+
+/* ---------------- PROMO ---------------- */
+.mah-promo {
+  margin: 14px 16px 22px;
+  padding: 22px 20px;
+  border-radius: var(--radius-lg);
+  background: linear-gradient(135deg, var(--teal-800), var(--teal-600));
+  color: #fff;
+}
+.mah-eyebrow { font-size: 11px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; opacity: .85; }
+.mah-promo h2 { color: #fff; font-size: 20px; line-height: 1.3; margin: 10px 0 16px; }
+.mah-promo-cta { background: var(--cta); color: var(--ink-900); border: none; }
+.mah-promo-cta:hover { background: var(--cta-hover); }
+.mah-promo-meta {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-top: 16px;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.75);
+}
+.mah-promo-meta .mah-dot { opacity: .5; }
+
+/* ---------------- SEARCH ---------------- */
+.mah-search {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 0 16px 26px;
+  padding: 12px 16px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--border-glass);
+}
+.mah-search svg { width: 17px; height: 17px; color: var(--text-muted); flex-shrink: 0; }
+.mah-search input {
+  border: none;
+  outline: none;
+  background: transparent;
+  font-family: var(--font-body);
+  font-size: 13.5px;
+  color: var(--text-primary);
+  width: 100%;
+}
+.mah-search input::placeholder { color: var(--text-muted); }
+
+.mah-empty {
+  display: none;
+  text-align: center;
+  padding: 24px 16px;
+  color: var(--text-muted);
+  font-size: 12.5px;
+}
+
+/* ---------------- SECTIONS (flat — no accordion) ---------------- */
+.mah-section { margin: 0 16px 28px; }
+.mah-section-label {
+  font-family: var(--font-display);
+  font-size: 13px;
+  font-weight: 700;
+  color: var(--text-primary);
+  margin-bottom: 12px;
+}
+
+/* ---------------- TILES — minimal / premium ---------------- */
+.mah-grid { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.mah-tile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 14px 4px 12px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--border-glass);
+  text-align: center;
+  transition: border-color var(--dur-fast), transform var(--dur-fast) var(--ease-out);
+}
+.mah-tile-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  
+  color: var(--accent);
+}
+.mah-tile-icon svg { width: 18px; height: 18px; }
+.mah-tile span:last-child { font-size: 10px; font-weight: 600; color: var(--text-secondary); line-height: 1.25; }
+.mah-tile:active { transform: scale(0.96); border-color: var(--accent); }
+
+/* ---------------- FAQ (inherits sitewide .faq-item, just tighten for the card context) ---------------- */
+.mah-faq-list .faq-item { background: var(--surface); }
+.mah-faq-list .faq-question { padding: 16px 18px; font-size: 13.5px; }
+.mah-faq-list .faq-answer p { padding: 0 18px 16px; font-size: 13px; }
+
+/* ---------------- CONTACT ---------------- */
+.mah-contact-card {
+  margin: 8px 16px 0;
+  padding: 20px 18px;
+  border-radius: var(--radius-lg);
+  background: var(--bg-alt);
+  border: 1px solid var(--border-glass);
+}
+.mah-contact-card h3 { font-family: var(--font-display); font-size: 15px; margin-bottom: 3px; }
+.mah-contact-card p { font-size: 12px; color: var(--text-muted); margin-bottom: 16px; }
+.mah-contact { display: flex; gap: 10px; }
+.mah-contact-btn {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 14px 6px;
+  border-radius: var(--radius-md);
+  background: var(--surface);
+  border: 1px solid var(--border-glass);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--text-secondary);
+}
+.mah-contact-btn svg { width: 18px; height: 18px; color: var(--accent); }
+.mah-contact-btn:active { border-color: var(--accent); background: var(--accent-soft); color: var(--accent-strong); }
